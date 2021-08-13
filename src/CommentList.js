@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+/*import { FixedSizeList as List } from 'react-window';*/
 
 class CommentList extends React.Component {
   state = {
@@ -16,13 +17,14 @@ class CommentList extends React.Component {
 
   render() {
     return (
+      
       <ul id='b'>
         { this.state.comments.map(comment => <li>{comment.name}</li>)}
       </ul>
+    
     )
   }
   
 }
-
 
 export default CommentList;
