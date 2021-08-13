@@ -4,12 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import PersonList from './PersonList';
+import CommentList from './CommentList';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <p></p>
     <PersonList />
-    
+    <p></p>
+    <CommentList />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
