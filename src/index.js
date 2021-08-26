@@ -7,10 +7,12 @@ import PersonList from './PersonList';
 /* import CommentList from './CommentList';*/
 import Todos from './Todos';
 import Anim from './Anim'
+import Container from './Container'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Container />
     <Anim />
     <PersonList />
   
